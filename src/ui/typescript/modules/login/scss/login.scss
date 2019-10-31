@@ -1,0 +1,30 @@
+.login-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .login-paper {
+    width: 30vw;
+    padding: 3rem;
+
+    .login-button {
+      margin-top: 1rem;
+    }
+
+    .info-container {
+      margin-top: 1rem;
+      display: flex;
+
+      .icon {
+        font-size: 1.6rem !important;
+        color: #7ecfc0;
+        margin-right: 1rem;
+      }
+
+      color: rgba(255,255,255,.6);
+      font-size: .9rem;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,900&display=swap');
+
+html {
+  background: #121212;
+  font-family: Poppins, Roboto, "Segoe UI", sans-serif;
+  line-height: 1.56;
+  margin: 0;
+  font-size: 15px;
+
+  body {
+    margin: 0;
+  }
+
+  .title {
+    font-weight: 800;
+    font-size: 2.5rem;
+  }
+}
