@@ -6,7 +6,7 @@ import { observable } from 'mobx';
 import { observer } from 'mobx-react';
 
 @observer
-export class Login extends React.Component<{}> {
+export class Login extends React.Component<{onLogin: Function}> {
   @observable username: string = "";
   @observable password: string = "";
 
@@ -24,6 +24,7 @@ export class Login extends React.Component<{}> {
     const { jwt } = await response.json();
 
     window.localStorage.jwt = jwt;
+    this.props.onLogin();
   }
 
   public render(): React.ReactNode {
